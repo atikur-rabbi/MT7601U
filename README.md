@@ -12,8 +12,8 @@ Note that name of the file in */lib/firmware* is in lowercase.
 After that **make sure you have installed all packages required by your distro to build kernel modules** (```apt-get install linux-headers-$(uname -r)``` or ```yum install kernel-devel``` etc). Build the driver and load it:
 
 ```sh
-$ git clone git@github.com:kuba-moo/mt7601u.git
-$ cd mt7601u
+$ git clone https://github.com/atikur-rabbi/MT7601U.git
+$ cd MT7601Umake
 $ make
 # modprobe mac80211
 # insmod ./mt7601u.ko
